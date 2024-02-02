@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Management System</title>
+    <link rel="stylesheet" href="Simple_Contact_Management_System.css">
+</head>
+<body>
+
+    <h1>Contact Management System</h1>
+
+    <label for="name"><b>Name:</b></label>
+    <input type="text" id="name">
+
+    <label for="phone"><b>Phone Number:</b></label>
+    <input type="text" id="phone">
+
+    <label for="email"><b>Email Address:</b></label>
+    <input type="text" id="email">
+
+    <button onclick="addContact()"><b>Add Contact</b></button>
+
+    <h3>Contact List</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Phone Number</th>
+                <th>Email Address</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody id="contactList"></tbody>
+    </table>
+
+    <script src="Simple_Contact_Management_System.js">
+
+    </script>
+</body>
+</html>
